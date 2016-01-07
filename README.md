@@ -17,13 +17,14 @@ npm i -g beerjs-cli
 ## Use
 
 ```bash
-beerjs
+beerjs info
+beerjs events
 ```
 
 ## Example
 
 ```bash
-beerjs
+beerjs info
 
 Evento: BeerJS Santiago #9 🍺
 Fecha: miércoles 6 de enero 2016
@@ -32,4 +33,15 @@ Direccion: Mariano Sanchez Fontencilla 310 of 1001
 Hora: desde 19:30 hrs
 Tema: Visualización de datos
 Requisito: Traer hambre, sed y buena onda
+
+beerjs events
+
+Edición: 6ª edición: Octubre 2015
+Fecha: miércoles 7 octubre 2015
+Lugar: Platanus
+Tema: Angular y TDD
+Expositores: @bunzli
+
+Edición: 5ª edición: Septiembre 2015
+...
 ```
