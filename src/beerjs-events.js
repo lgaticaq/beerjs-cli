@@ -4,11 +4,13 @@
 
 import program from 'commander';
 import beerjs from 'beerjs-info';
+import logo from './ascii-logo';
 
 program
   .parse(process.argv);
 
 beerjs.getEvents().then((events) => {
+  console.log(logo);
   let _events;
   if (program.args.length !== 0) {
     _events = events.filter(x => /(\d+)([\w\W\d\s]+)/.exec(x.title)[1] === program.args[0]);

@@ -4,6 +4,7 @@
 
 import program from 'commander';
 import pkg from '../package.json';
+import logo from './ascii-logo';
 
 program
   .version(pkg.version)
@@ -13,5 +14,6 @@ program
   .parse(process.argv);
 
 if (program.args.length === 0) {
+  console.log(logo);
   program.help();
 }
