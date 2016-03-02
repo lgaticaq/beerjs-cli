@@ -34,14 +34,12 @@ Hora: desde 19:30 hrs
 Tema: Visualización de datos
 Requisito: Traer hambre, sed y buena onda
 
-beerjs events
+beerjs events 6
 
 Edición: 6ª edición: Octubre 2015
 Fecha: miércoles 7 octubre 2015
 Lugar: Platanus
 Tema: Angular y TDD
 Expositores: @bunzli
-
-Edición: 5ª edición: Septiembre 2015
 ...
 ```
