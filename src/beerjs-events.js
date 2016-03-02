@@ -9,7 +9,13 @@ program
   .parse(process.argv);
 
 beerjs.getEvents().then((events) => {
-  for (let event of events) {
+  let _events;
+  if (program.args.length !== 0) {
+    _events = events.filter(x => /(\d+)([\w\W\d\s]+)/.exec(x.title)[1] === program.args[0]);
+  } else {
+    _events = events;
+  }
+  for (let event of _events) {
     console.log(`Edición: ${event.title}`);
     console.log(`Fecha: ${event.date}`);
     console.log(`Lugar: ${event.place}`);
