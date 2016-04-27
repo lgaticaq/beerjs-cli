@@ -35,7 +35,9 @@
   "dependencies": {
     "beerjs-info": "^1.2.0",
     "commander": "^2.9.0",
-    "node-emoji": "^1.3.0"
+    "node-emoji": "^1.3.0",
+    "open": "0.0.5",
+    "update-notifier": "^0.6.3"
   },
   "devDependencies": {
     "babel-cli": "^6.7.7",
