@@ -19,6 +19,7 @@ npm i -g beerjs-cli
 ```bash
 beerjs info
 beerjs events
+beerjs register
 ```
 
 ## Example
