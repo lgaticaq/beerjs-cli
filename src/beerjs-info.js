@@ -16,7 +16,9 @@ beerjs.getInfo().then((data) => {
   console.log(`Fecha: ${data.fecha}`);
   console.log(`Donde: ${data.donde}`);
   console.log(`Direccion: ${data.direccion}`);
-  console.log(`Hora: ${data.hora}`);
+  if (data.hora !== null && data.hora !== undefined && data.hora !== '') {
+    console.log(`Hora: ${data.hora}`);
+  }
   console.log(`Tema: ${data.tema}`);
   console.log(`Requisito: ${data.requisito}`);
 }).catch(() => console.log('Evento no encontrado'));
