@@ -2,10 +2,11 @@
 
 'use strict';
 
-import program from 'commander';
-import pkg from '../package.json';
-import logo from './ascii-logo';
-import updateNotifier from 'update-notifier';
+const program = require('commander');
+const pkg = require('../package.json');
+const logo = require('./ascii-logo');
+const updateNotifier = require('update-notifier');
+const chalk = require('chalk');
 
 updateNotifier({pkg}).notify();
 
@@ -18,6 +19,6 @@ program
   .parse(process.argv);
 
 if (program.args.length === 0) {
-  console.log(logo);
+  console.log(chalk.green(logo));
   program.help();
 }

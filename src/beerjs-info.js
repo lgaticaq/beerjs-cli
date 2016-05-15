@@ -2,23 +2,24 @@
 
 'use strict';
 
-import program from 'commander';
-import beerjs from 'beerjs-info';
-import emoji from 'node-emoji';
-import logo from './ascii-logo';
+const program = require('commander');
+const beerjs = require('beerjs-info');
+const emoji = require('node-emoji');
+const logo = require('./ascii-logo');
+const chalk = require('chalk');
 
 program
   .parse(process.argv);
 
 beerjs.getInfo().then((data) => {
-  console.log(logo);
-  console.log(`Evento: ${data.evento.replace(':beerjs:', emoji.get('beer'))}`);
-  console.log(`Fecha: ${data.fecha}`);
-  console.log(`Donde: ${data.donde}`);
-  console.log(`Direccion: ${data.direccion}`);
+  console.log(chalk.green(logo));
+  console.log(chalk.green(`Evento: ${data.evento.replace(':beerjs:', emoji.get('beer'))}`));
+  console.log(chalk.green(`Fecha: ${data.fecha}`));
+  console.log(chalk.green(`Donde: ${data.donde}`));
+  console.log(chalk.green(`Direccion: ${data.direccion}`));
   if (data.hora !== null && data.hora !== undefined && data.hora !== '') {
-    console.log(`Hora: ${data.hora}`);
+    console.log(chalk.green(`Hora: ${data.hora}`));
   }
-  console.log(`Tema: ${data.tema}`);
-  console.log(`Requisito: ${data.requisito}`);
-}).catch(() => console.log('Evento no encontrado'));
+  console.log(chalk.green(`Tema: ${data.tema}`));
+  console.log(chalk.green(`Requisito: ${data.requisito}`));
+}).catch(() => console.log(chalk.green('Evento no encontrado')));

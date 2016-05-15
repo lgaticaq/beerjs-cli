@@ -25,7 +25,7 @@ beerjs register
 ## Example
 
 ```bash
-beerjs info
+$ beerjs info
 
 Evento: BeerJS Santiago #9 🍺
 Fecha: miércoles 6 de enero 2016
@@ -34,13 +34,13 @@ Direccion: Mariano Sanchez Fontencilla 310 of 1001
 Hora: desde 19:30 hrs
 Tema: Visualización de datos
 Requisito: Traer hambre, sed y buena onda
+```
+```bash
+$ beerjs events 6
 
-beerjs events 6
-
-Edición: 6ª edición: Octubre 2015
-Fecha: miércoles 7 octubre 2015
-Lugar: Platanus
-Tema: Angular y TDD
-Expositores: @bunzli
-...
+┌─────────┬────────────┬──────────┬───────────────┬─────────────┐
+│ Edición │ Fecha      │ Lugar    │ Tema          │ Expositores │
+├─────────┼────────────┼──────────┼───────────────┼─────────────┤
+│ 6ª      │ 2015-10-07 │ Platanus │ Angular y TDD │ @bunzli     │
+└─────────┴────────────┴──────────┴───────────────┴─────────────┘
 ```
