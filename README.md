@@ -4,9 +4,8 @@
 [![npm downloads](https://img.shields.io/npm/dm/beerjs-cli.svg?style=flat-square)](https://www.npmjs.com/package/beerjs-cli)
 [![dependency Status](https://img.shields.io/david/lgaticaq/beerjs-cli.svg?style=flat-square)](https://david-dm.org/lgaticaq/beerjs-cli#info=dependencies)
 [![devDependency Status](https://img.shields.io/david/dev/lgaticaq/beerjs-cli.svg?style=flat-square)](https://david-dm.org/lgaticaq/beerjs-cli#info=devDependencies)
-[![Join the chat at https://gitter.im/lgaticaq/beerjs-cli](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg?style=flat-square)](https://gitter.im/lgaticaq/beerjs-cli?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Get beerjs info (Chile) CLI
+> Get beerjs info (Chile) CLI
 
 ## Installation
 
@@ -44,3 +43,7 @@ $ beerjs events 6
 │ 6ª      │ 2015-10-07 │ Platanus │ Angular y TDD │ @bunzli     │
 └─────────┴────────────┴──────────┴───────────────┴─────────────┘
 ```
+
+## License
+
+[MIT](https://tldrlegal.com/license/mit-license)
