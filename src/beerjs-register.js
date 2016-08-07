@@ -11,12 +11,12 @@ const chalk = require('chalk');
 program
   .parse(process.argv);
 
-beerjs.getRegister().then(data => {
+beerjs.getInfo().then(data => {
   console.log(chalk.green(logo));
-  if (data !== null && data !== undefined) {
-    console.log(chalk.green(`Abriendo el enlace ${data} en tu navegador...`));
-    open(data);
+  if (data.registro !== '') {
+    console.log(chalk.green(`Abriendo el enlace ${data.registro} en tu navegador...`));
+    open(data.registro);
   } else {
-    console.log(chalk.green('Lo sentimos, no hay cupos disponibles o aún no esta creado el evento'));
+    console.log(chalk.green('Lo sentimos, no hay evento'));
   }
 }).catch(() => console.log(chalk.green('Evento no encontrado')));
