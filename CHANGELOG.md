@@ -1,3 +1,30 @@
+#### 2.0.2 (2016-12-18)
+
+##### Chores
+
+* **package:**
+  * Update dependencies ([74f5a89c](https://github.com/lgaticaq/beerjs-cli/commit/74f5a89c15ffa706c17511631d20ad066bd37066))
+  * Add yarn.lock ([28a5859a](https://github.com/lgaticaq/beerjs-cli/commit/28a5859ae1aba963889ccacfee261214dc9c4bb1))
+  * Update dependencies ([25fefa0c](https://github.com/lgaticaq/beerjs-cli/commit/25fefa0c4b618a6ed0466f57d541e451e631088a))
+  * update eslint to version 3.9.0 ([58c6227f](https://github.com/lgaticaq/beerjs-cli/commit/58c6227f0c3b8d35a8aa463b9a5f8002235c31e2))
+  * update moment to version 2.15.2 ([d18218ac](https://github.com/lgaticaq/beerjs-cli/commit/d18218acbb197d9e1c25c03ab0d66ce6f9ff7fc9))
+  * update eslint to version 3.8.1 ([8c3e724e](https://github.com/lgaticaq/beerjs-cli/commit/8c3e724e96f68a1e0ee3babf22c42ab504cd5c03))
+  * update eslint to version 3.8.0 ([40eb06a2](https://github.com/lgaticaq/beerjs-cli/commit/40eb06a2ef2be4f9f145b549ecc078a2656f3588))
+  * update eslint to version 3.7.1 ([5736d700](https://github.com/lgaticaq/beerjs-cli/commit/5736d700f13d45dd9b4cc1d8cf4b54f58d6aa821))
+  * update eslint to version 3.7.0 ([09d32de1](https://github.com/lgaticaq/beerjs-cli/commit/09d32de131e4871ed24fd6a5fbdc1081af8ef3ed))
+  * update eslint to version 3.6.1 ([3a53dc3f](https://github.com/lgaticaq/beerjs-cli/commit/3a53dc3fde3bcfb0f84fe865a827bf30978dfdbc))
+  * update eslint to version 3.6.0 ([64db0a58](https://github.com/lgaticaq/beerjs-cli/commit/64db0a587f2f758d1caf1ac0f739cce2f7e534a5))
+  * update moment to version 2.15.1 ([48180b2c](https://github.com/lgaticaq/beerjs-cli/commit/48180b2c95a8d0899db1893a8bc41b251161f200))
+  * update moment to version 2.15.0 ([bca4e158](https://github.com/lgaticaq/beerjs-cli/commit/bca4e158d22fa420c5ce0e67869ae90fbe047bbd))
+  * update eslint to version 3.5.0 ([6059cfe7](https://github.com/lgaticaq/beerjs-cli/commit/6059cfe7c9374bdf4a5a7d91e0d44f323a465822))
+  * update node-emoji to version 1.4.1 ([7e2076d2](https://github.com/lgaticaq/beerjs-cli/commit/7e2076d2f750bc0abb801f9e4940f58881ccb6df))
+  * update node-emoji to version 1.4.0 ([b3f39c8b](https://github.com/lgaticaq/beerjs-cli/commit/b3f39c8b139b5c426ea14fa363d87064494e0f91))
+  * update eslint to version 3.4.0 ([3a4e50c2](https://github.com/lgaticaq/beerjs-cli/commit/3a4e50c21843da34470a9fcdb9b98d574f083401))
+  * update eslint to version 3.3.1 ([4e6a0832](https://github.com/lgaticaq/beerjs-cli/commit/4e6a08322145d786a08a2905f8d821358f6646bf))
+  * update eslint to version 3.3.0 ([4255c1ed](https://github.com/lgaticaq/beerjs-cli/commit/4255c1ed2758e2ef3ca52d93beb225e737f6b54b))
+* **npm:** Update ignore ([7234e34c](https://github.com/lgaticaq/beerjs-cli/commit/7234e34cfdcc462733e3f7c2a805062b340dcaf6))
+* **nvm:** Update node version ([6b5ade50](https://github.com/lgaticaq/beerjs-cli/commit/6b5ade50edce5d63b79c3a28dcd84a92a1441d08))
+
 #### 2.0.1 (2016-8-7)
 
 ##### Chores
