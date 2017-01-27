@@ -1,3 +1,9 @@
+#### 2.0.3 (2017-1-26)
+
+##### Chores
+
+* **package:** Update dependencies ([19490c27](https://github.com/lgaticaq/beerjs-cli/commit/19490c273b6623f6f816bccd9bc7dc5e045f00db))
+
 #### 2.0.2 (2016-12-18)
 
 ##### Chores
