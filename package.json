@@ -1,6 +1,6 @@
 {
   "name": "beerjs-cli",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Get beerjs info (Chile) CLI",
   "main": "src",
   "scripts": {
