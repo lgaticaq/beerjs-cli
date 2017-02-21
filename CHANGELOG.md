@@ -1,3 +1,18 @@
+#### 2.0.4 (2017-2-21)
+
+##### Chores
+
+* **yarn:** Update yarn.lock ([efd45139](https://github.com/lgaticaq/beerjs-cli/commit/efd4513983f318ab87c3e66f4f2b27577f3b74d8))
+* **package:** update eslint to version 3.16.0 ([c9f75be7](https://github.com/lgaticaq/beerjs-cli/commit/c9f75be71cee988a02fa22fe79b43251ad905bab))
+
+##### Documentation Changes
+
+* **LICENSE:** Update year ([758b894b](https://github.com/lgaticaq/beerjs-cli/commit/758b894b7405abe6baf8c57ce4fa001b5b33b5f5))
+
+##### Bug Fixes
+
+* **package:** update update-notifier to version 2.1.0 ([729e1042](https://github.com/lgaticaq/beerjs-cli/commit/729e1042ca0bf9673160b63f1b0b1dc3b2974b28))
+
 #### 2.0.3 (2017-1-26)
 
 ##### Chores
