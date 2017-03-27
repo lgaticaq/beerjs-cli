@@ -1,3 +1,11 @@
+#### 2.0.5 (2017-3-26)
+
+##### Chores
+
+* **package:**
+  * Upgrade eslint to version 3.18.0 ([899ff988](https://github.com/lgaticaq/beerjs-cli/commit/899ff988ff89cae68c3ac315002ec8dffbd7bafe))
+  * Upgrade moment to version 2.18.1 ([5ae26d6f](https://github.com/lgaticaq/beerjs-cli/commit/5ae26d6f968035fa502e6db981f8009c0dd3c7cf))
+
 #### 2.0.4 (2017-2-21)
 
 ##### Chores
