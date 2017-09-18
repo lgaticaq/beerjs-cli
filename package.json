@@ -42,7 +42,7 @@
     "update-notifier": "^2.1.0"
   },
   "devDependencies": {
-    "eslint": "4.7.0",
+    "eslint": "4.7.1",
     "generate-changelog": "1.4.0"
   },
   "eslintConfig": {
