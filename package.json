@@ -33,7 +33,7 @@
   "homepage": "https://github.com/lgaticaq/beerjs-cli#readme",
   "dependencies": {
     "beerjs-info": "^2.1.2",
-    "chalk": "^2.0.0",
+    "chalk": "^4.0.0",
     "cli-table": "^0.3.1",
     "commander": "^2.9.0",
     "moment": "^2.18.1",
