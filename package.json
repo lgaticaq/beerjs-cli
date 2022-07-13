@@ -36,7 +36,7 @@
     "chalk": "^2.0.0",
     "cli-table": "^0.3.1",
     "commander": "^2.9.0",
-    "moment": "^2.18.1",
+    "moment": "^2.29.4",
     "node-emoji": "^1.5.1",
     "open": "^0.0.5",
     "update-notifier": "^2.1.0"
